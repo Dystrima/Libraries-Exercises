@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* INDEX.HTML */
+
+.menucontainer {
+    height: 100vh;
+    background-color: #F6F4F3;
+    color: #F6F4F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.aos-page, .swiper-page, .fslightbox-page, .waypoints-page {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.aos-page {
+    background-color: #183059;
+}
+.aos-page:hover {
+    background-color: hwb(218 9% 65% / 0.8);
+}
+
+.swiper-page {
+    background-color: #276FBF;
+}
+.swiper-page:hover {
+    background-color: hsla(212, 66%, 45%, 0.8);
+}
+
+.fslightbox-page {
+    background-color: #F03A47;
+}
+.fslightbox-page:hover {
+    background-color: hsla(356, 86%, 58%, 0.8);
+}
+
+.waypoints-page {
+    background-color: #AF5B5B;
+}
+.waypoints-page:hover {
+    background-color: hsla(0, 34%, 52%, 0.8);
+}
+
+/* AOS */
+
+section {
+    height: 100vh;
+    color: #F6F4F3;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    background-color: #F03A47;
+}
+
+.section2 {
+    background-color: #AF5B5B;
+}
+
+.section3 {
+    background-color: #183059;
+}
+
+.section4 {
+    background-color: #276FBF;
+}
+
+/* SWIPER */
+
+.swiper {
+    height: 100vh;
+    background-color: #AF5B5B;
+}
+
+.swiper-button-prev {
+    content: url(prev.png);
+}
+
+.swiper-button-next {
+    content: url(next.png);
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* FS LIGHBOX */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.grid-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* WAYPOINTS */
+
+.section200vh {
+    height: 200vh;
+    background-color: #276FBF;
+}
+
+.section100vh {
+    height: 100vh;
+    background-color: #F03A47;
+}
